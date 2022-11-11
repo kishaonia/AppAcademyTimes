@@ -1,0 +1,41 @@
+/* Your code here */
+.interest-links {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr 2fr 1fr 0.75fr;
+  }
+  
+  .interests-bar__image {
+    display: flex;
+    align-items: center;
+  }
+  
+  .interests-bar__headline {
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  .interests-bar__story {
+    padding: 0 10px;
+  }
+  
+  .interest-table-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+    border-bottom: 1px solid black;
+  }
+  
+  .interest-table {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  .temperature {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    padding: 10px;
+  }

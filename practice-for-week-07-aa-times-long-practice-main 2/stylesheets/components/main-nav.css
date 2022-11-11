@@ -1,0 +1,14 @@
+/* Your code here */
+.main {
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+  }
+  
+  .main ul {
+    display: inline-flex;
+  }
+  
+  .main li {
+    padding: 10px;
+  }
